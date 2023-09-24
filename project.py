@@ -5,6 +5,7 @@ from jetson_utils import videoSource, videoOutput, cudaFont, Log
 import select
 import json
 
+# Move into ai_nvidia directory, run python script from terminal
 
 net = imageNet(model="resnet18.onnx", labels="labels.txt", 
 input_blob="input_0", output_blob="output_0")
